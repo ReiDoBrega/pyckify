@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pyckify"
+version = "0.1.0"
+description = "A modern interactive terminal picker for creating interactive command-line selection interfaces"
+authors = ["ReiDoBrega <pedro94782079@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/ReiDoBrega/pyckify"
+homepage = "https://github.com/ReiDoBrega/pyckify"
+keywords = ["terminal", "gui", "pick", "pyckify", "selection", "ui", "rich", "curses"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+rich = ">=13.0.0"
+windows-curses = {version = "^2.2.0", platform = "win32"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+mypy = "^1.4"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
