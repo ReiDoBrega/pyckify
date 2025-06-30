@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pyckify",
-    version="0.1.0",
+    version="0.1.2",
     author="ReiDoBrega",
     author_email="pedro94782079@gmail.com",
     description="A modern interactive terminal picker for creating interactive command-line selection interfaces",
