@@ -113,7 +113,8 @@ def showcase_filtered_selection():
     
     # Custom filter for modern languages
     def modern_languages(option: Option) -> bool:
-        return option.value.year >= 2010
+        lang: Language = option.value  # type: ignore
+        return lang.year >= 2010
     
     result = Pyck(
         options=options,
