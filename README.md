@@ -2,7 +2,6 @@
 
 A modern, feature-rich Python library for creating interactive command-line selection interfaces. Pyckify (pick-it-for-you) offers an enhanced selection experience with support for multiselect, grouping, filtering, search, and rich styling.
 
-[![image](https://github.com/ReiDoBrega/pyckify/actions/workflows/ci.yml/badge.svg)](https://github.com/ReiDoBrega/pyckify/actions/workflows/ci.yml)
 [![PyPI version](https://badge.fury.io/py/pyckify.svg)](https://badge.fury.io/py/pyckify)
 [![Python Versions](https://img.shields.io/pypi/pyversions/pyckify.svg)](https://pypi.org/project/pyckify/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
