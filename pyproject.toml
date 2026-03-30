@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyckify"
-version = "0.1.1"
+version = "0.1.3"
 description = "A modern interactive terminal picker for creating interactive command-line selection interfaces"
 authors = ["ReiDoBrega <pedro94782079@gmail.com>"]
 license = "MIT"
